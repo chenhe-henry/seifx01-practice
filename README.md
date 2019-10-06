@@ -1,3 +1,3 @@
 # seifx01-practice
-Welcome to my coding journey!\n
-Let's practice.
+## Welcome to my coding journey!
+## Let's practice.
