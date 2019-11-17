@@ -1,0 +1,26 @@
+<h1>This is a new page</h1>
+
+<h1>Add new users</h1>
+<%= form_for :user, url: users_path do |f| %>
+    <p>
+        <%= f.label :name %><br>
+        <%= f.text_field :name, :value => 'Your name' %>
+    </p>
+    <p>
+        <%= f.label :task %><br>
+        <%= f.text_area :task, :value => 'Todos' %>
+    </p>
+    <p>
+        <%= f.label :check %><br>
+        <%= f.check_box :paid %>
+    </p>
+     <p>
+        <%= f.label :Founction_Test %><br>
+        <%= f.week_field :user %>
+        
+    </p>
+    
+    <p>
+    <%= f.submit %>
+    </p>
+<% end %>    
